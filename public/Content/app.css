@@ -27,6 +27,13 @@
     margin-right: 10px;
 }
 
+.fraccalc{
+    float:right;
+    width:250px;
+    height:190px;
+    margin-left: 10px;
+}
+
 /* style for navigation bar*/
 .navbar{
     background-color: rgb(18, 0, 59);
