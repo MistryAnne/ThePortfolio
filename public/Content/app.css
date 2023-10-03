@@ -17,7 +17,14 @@
     float:right;
     width:230px;
     height:140px;
-    margin-left: 5px;
+    margin-left: 10px;
+}
+
+.slideshow{
+    float: left;
+    width:230px;
+    height:140px;
+    margin-right: 10px;
 }
 
 /* style for navigation bar*/
