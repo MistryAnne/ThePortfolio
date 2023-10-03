@@ -15,15 +15,15 @@
 
 .bugsmash{
     float:right;
-    width:230px;
-    height:140px;
+    width: 270px;
+    height:160px;
     margin-left: 10px;
 }
 
 .slideshow{
     float: left;
-    width:230px;
-    height:140px;
+    width:270px;
+    height:160px;
     margin-right: 10px;
 }
 
@@ -68,7 +68,13 @@ body{
     background-image: linear-gradient(beige, white);
 }
 
+p, ul{
+    font-family: Calibri;
+    font-size: 16pt;
+}
+
 /* project sections for different projects mentioned*/
 .section{
     overflow: auto;
 }
+

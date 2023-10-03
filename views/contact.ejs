@@ -5,8 +5,40 @@
 <main class="container">
 <div class="jumbotron">
 
-    <h1>Welcome to <%= title %> Page</h1>
-    
+    <div>
+        <hr>
+        <p>My Contact Information</p>
+        <p>Email: <a href="mailto:amistr34@my.centennialcollege.ca">amistr34@my.centennialcollege.ca</a></p>
+        <p>Phone: 647 xxx xxxx</p>
+        <hr>
+
+        <form action="home">
+            <label>First Name*:
+            <textarea name="firstname" id = "firstname" cols="10" rows="1" required="required"></textarea>
+            </label>
+            <br>
+            <label>Last Name*:
+                <textarea name="lastname" id = "lastname" cols="10" rows="1" required="required"></textarea>
+            </label>
+            <br>
+            <label>Phone*:
+                <input type="tel" textarea name="phone" id = "phone" cols="10" rows="1" required="required" pattern="[0-9]{10}" ></textarea>
+            </label>
+            <br>
+            <label>Email*:
+                <textarea name="email" id = "email" cols="10" rows="1" required="required"></textarea>
+            </label>
+            <br>
+            <label>
+            Message:
+            <br>
+            <textarea name = "comments" id = "comments" cols="50" rows="15"></textarea>
+            </label>
+            <br>
+            <input type="submit" value="submit">
+            <input type="reset">
+            </form>
+    </div>
     </div>
 </main>
 
