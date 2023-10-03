@@ -1,0 +1,33 @@
+/**
+ * Name: Anne Mistry
+ * ID: 301340972
+ * Course: Comp 229 Sec 402
+ * Date: Oct 4 2023
+ * File name: app.css
+ */
+
+/* style for pictures*/
+.mypic{
+    float: right;
+    width:216px;
+    height:288px;
+}
+
+/* style for navigation bar*/
+.navbar{
+    background-color: rgb(18, 0, 59);
+}
+.navbar-brand{
+    color: beige;
+}
+.nav-link{
+    color: beige;
+}
+.display-6{
+    color: beige;
+}
+
+/* box on every page*/
+.jumbotron{
+    background-color: lavender;
+}
