@@ -13,6 +13,13 @@
     height:288px;
 }
 
+.bugsmash{
+    float:right;
+    width:230px;
+    height:140px;
+    margin-left: 5px;
+}
+
 /* style for navigation bar*/
 .navbar{
     background-color: rgb(18, 0, 59);
@@ -30,4 +37,9 @@
 /* box on every page*/
 .jumbotron{
     background-color: lavender;
+}
+
+/* project sections for different projects mentioned*/
+.section{
+    overflow: auto;
 }
