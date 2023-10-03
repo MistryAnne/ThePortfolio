@@ -59,15 +59,16 @@
     background-color: lavender;
 }
 
+html{
+    height: 100%;
+    background-color: #cfcfcf; 
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(beige, white);
+}
 
 /* project sections for different projects mentioned*/
 .section{
     overflow: auto;
 }
-
-@media (min-width: 1024px) {
-    body     { 
-        background-color: #cfcfcf; 
-        background-image: linear-gradient(#fdfdfd,lavender);
-    }
-}    
